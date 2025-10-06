@@ -1,0 +1,21 @@
+countries_to_visit = ["france", "germany", "italy", "spain", "china"]
+print(countries_to_visit)
+print(sorted(countries_to_visit))
+print(countries_to_visit)
+print(sorted(countries_to_visit, reverse=True))
+print(countries_to_visit)
+countries_to_visit.reverse()
+print(countries_to_visit)
+countries_to_visit.reverse()
+print(countries_to_visit)
+countries_to_visit.sort()
+print(countries_to_visit)
+countries_to_visit.sort(reverse=True)
+print(countries_to_visit)
+
+languages_to_learn = ["french", "german", "italian", "spanish", "chinese"]
+print(languages_to_learn)
+print(len(languages_to_learn))
+print(list(reversed(languages_to_learn)))
+print(sorted(languages_to_learn))
+print(sorted(languages_to_learn, reverse=True))

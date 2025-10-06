@@ -16,4 +16,4 @@ print("\nUnfortunately, the table won`t arrive on time, so we have sits only for
 for _ in range(5):
     removed_guest = guests.pop()
     print(f"Sorry {removed_guest.title()}, we have sits only for 2 persons, the letter that was sent earlier isn`t valid now.")
-print(f"\nFinal guests list: {', '.join(guest.title() for guest in guests)}\n")
+print(f"\nFinal guests list has {len(guests)} guests: {', '.join(guest.title() for guest in guests)}\n")
