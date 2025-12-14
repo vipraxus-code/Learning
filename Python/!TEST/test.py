@@ -1,3 +1,4 @@
-favorite_laguages = {"jen": "c","sarah": "rust","edward": "python","phil": "c"}
-for language in sorted(set(favorite_laguages.values())):
-    print(language.title())
+def build(street, number):
+    print(f"Дом на улице {street} под номером {number} построен.")
+
+build("Московская", "21")
