@@ -1,4 +1,4 @@
-def build(street, number):
-    print(f"Дом на улице {street} под номером {number} построен.")
+def abbrev_name(name):
+    return f"{name[0]}.{name[name.index(" ")]}"
 
-build("Московская", "21")
+print(abbrev_name("Sam Harris"))
