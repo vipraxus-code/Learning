@@ -19,6 +19,3 @@ class User:
     def set_money(self, value):
         self.balance = value
         print(f"{self.user_id}'s balance set to {value}")
-
-
-
