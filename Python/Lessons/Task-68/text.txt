@@ -1,0 +1,5 @@
+In Python you can create variables.
+In Python you can store different data types in variables.
+In Python you can perform calculations using those variables.
+In Python you can define functions to reuse code.
+In Python you can import modules to extend your programs.
