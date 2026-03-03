@@ -16,4 +16,3 @@ user2 = UserData(2, "Steve", 100)
 
 print(user2.dump_data())
 print(user2.load_data())
-
