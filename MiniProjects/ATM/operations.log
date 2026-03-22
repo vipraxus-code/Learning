@@ -1,0 +1,5 @@
+SUCCESS - atm_0001 - Deposit - 1000
+SUCCESS - atm_0001 - Withdraw - 500
+SUCCESS - atm_0001 - PrintBalance
+SUCCESS - atm_0001 - Exit
+ERROR - atm_0001 - Withdraw - 500 - InsufficientFundsError

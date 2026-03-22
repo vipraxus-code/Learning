@@ -3,7 +3,7 @@ This is a small learning repository with examples and exercises I worked on whil
 
 
 ### **Requirements**
-- Python 3.14
+- Python 3.13.7
   - pytest library (install with "pip install pytest")
 - HTML5
 - CSS3
