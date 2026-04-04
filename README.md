@@ -5,5 +5,6 @@ This is a small learning repository with examples and exercises I worked on whil
 ### **Requirements**
 - Python 3.13.7
   - pytest library (install with "pip install pytest")
+  - requests library (install wuth "pip install requests")
 - HTML5
 - CSS3

@@ -3,3 +3,27 @@ SUCCESS - atm_0001 - Withdraw - 500
 SUCCESS - atm_0001 - PrintBalance
 SUCCESS - atm_0001 - Exit
 ERROR - atm_0001 - Withdraw - 500 - InsufficientFundsError
+SUCCESS - 01 - Registration
+SUCCESS - 01 - Registration
+ERROR - 01 - Registration - IntegrityError
+ERROR - 01 - Registration - IntegrityError
+SUCCESS - 01 - Registration
+ERROR - 01 - Registration - IntegrityError
+SUCCESS - 01 - Registration
+ERROR - 01 - Registration - UserAlreadyExistsError
+ERROR - 01 - Registration - FieldIsEmptyError
+ERROR - 01 - Registration - FieldIsEmptyError
+ERROR - 01 - Registration - UserAlreadyExistsError
+ERROR - 01 - Registration - UserAlreadyExistsError
+ERROR - 01 - Registration - UserAlreadyExistsError
+ERROR - 01 - Login
+ERROR - 01 - Login - WrongPasswordError
+ERROR - 01 - Login - WrongPasswordError
+ERROR - 01 - Login - WrongPasswordError
+ERROR - 01 - Login - WrongPasswordError
+ERROR - 01 - Login - WrongPasswordError
+SUCCESS - 01 - Login
+SUCCESS - 01 - test - Login
+SUCCESS - 01 - Login - test
+SUCCESS - 01 - Login - test
+ERROR - 01 - Login - FieldIsEmptyError
