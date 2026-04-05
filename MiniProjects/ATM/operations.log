@@ -27,3 +27,14 @@ SUCCESS - 01 - test - Login
 SUCCESS - 01 - Login - test
 SUCCESS - 01 - Login - test
 ERROR - 01 - Login - FieldIsEmptyError
+ERROR - 01 - Login - FieldIsEmptyError- Input field was left empty
+ERROR - atm_1 - Login - FieldIsEmptyError - Input field was left empty
+ERROR - atm_1 - Logout - NoUserError - Attempted to log out while no user was logged in.
+ERROR - atm_1 - Login - UserDoesNotExistError - Login tqaetg given by user does not exist.
+ERROR - atm_1 - Login - WrongPasswordError - User inputed wrong password.
+ERROR - atm_1 - Login - FieldIsEmptyError - Input field was left empty
+SUCCESS - atm_1 - Login - test
+SUCCESS - atm_1 - Logout - test
+SUCCESS - atm_1 - Login - test
+SUCCESS - atm_1 - Logout - test
+SUCCESS - atm_1 - Registration - 123
