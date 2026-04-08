@@ -6,5 +6,7 @@ path = Path(__file__).with_name("users.db")
 with sqlite3.connect(path) as conn:
     cur = conn.cursor()
     cur.execute("SELECT * FROM users")
-for row in cur.fetchall():
-    print(row)
+    for row in cur.fetchall():
+        print(row)
+
+    cur.execute("UPDATE users SET balance = ? WHERE login = ?", (10000, "test"))

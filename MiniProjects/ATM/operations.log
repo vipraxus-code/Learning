@@ -38,3 +38,50 @@ SUCCESS - atm_1 - Logout - test
 SUCCESS - atm_1 - Login - test
 SUCCESS - atm_1 - Logout - test
 SUCCESS - atm_1 - Registration - 123
+ERROR - atm_1 - ShowBalance - SessionRequired - Attempted to use a protected feature without an active session.
+SUCCESS - atm_1 - Login - test
+SUCCESS - atm_1 - ShowBalance - test - 0
+SUCCESS - atm_1 - Login - test
+SUCCESS - atm_1 - ShowBalance - test - 0
+SUCCESS - atm_1 - Login - test
+SUCCESS - atm_1 - ShowBalance - test - 0
+SUCCESS - atm_1 - Login - test
+ERROR - atm_1 - Withdraw - test - 1000
+SUCCESS - atm_1 - Login - test
+SUCCESS - atm_1 - Withdraw - test - 1000
+SUCCESS - atm_1 - Login - test
+ERROR - atm_1 - Withdraw - test - 500
+ERROR - atm_1 - Login - test 123 - UserNotFoundError - Login test 123 given by user does was not found.
+ERROR - atm_1 - Login - 123 - WrongPasswordError - User inputed wrong password.
+ERROR - atm_1 - Withdraw - SessionRequired - Attempted to use a protected feature without an active session.
+SUCCESS - atm_1 - Login - 123
+ERROR - atm_1 - Login - 123 - WrongPasswordError - User inputed wrong password.
+ERROR - atm_1 - Withdraw - SessionRequired - Attempted to use a protected feature without an active session.
+SUCCESS - atm_1 - Login - test
+SUCCESS - atm_1 - Withdraw - test - 500
+SUCCESS - atm_1 - Login - test
+SUCCESS - atm_1 - Withdraw - test - 500
+SUCCESS - atm_1 - Login - test
+SUCCESS - atm_1 - Withdraw - test - 500
+SUCCESS - atm_1 - Login - test
+SUCCESS - atm_1 - Withdraw - test - 5000
+SUCCESS - atm_1 - Login - test
+SUCCESS - atm_1 - Withdraw - test - 500
+SUCCESS - atm_1 - Login - test
+ERROR - atm_1 - Withdraw - test - InsufficientFundsError - Withdraw denied: requested 3500, available 3000.
+ERROR - atm_1 - Login - FieldIsEmptyError - Input field was left empty.
+ERROR - atm_1 - Withdraw - SessionRequired - Attempted to use a protected feature without an active session.
+SUCCESS - atm_1 - Login - test
+ERROR - atm_1 - Withdraw - test - FieldIsEmptyError - Input field was left empty.
+SUCCESS - atm_1 - LOGIN - test
+SUCCESS - atm_1 - DEPOSIT - test - 1000
+SUCCESS - atm_1 - LOGIN - test
+ERROR - atm_1 - DEPOSIT - test - InvalidAmountError - User entered invalid deposit amount: -1.
+ERROR - atm_1 - LOGIN - tesdqfghwh - UserNotFoundError - Login tesdqfghwh given by user does was not found.
+ERROR - atm_1 - DEPOSIT - SessionRequired - Attempted to use a protected feature without an active session.
+ERROR - atm_1 - LOGIN - FieldIsEmptyError - Input field was left empty.
+ERROR - atm_1 - DEPOSIT - SessionRequired - Attempted to use a protected feature without an active session.
+SUCCESS - atm_1 - LOGIN - 123
+ERROR - atm_1 - DEPOSIT - 123 - FieldIsEmptyError - Input field was left empty.
+SUCCESS - atm_1 - LOGIN - 123
+ERROR - atm_1 - DEPOSIT - 123 - ValueError("invalid literal for int() with base 10: 'ddghs'")
