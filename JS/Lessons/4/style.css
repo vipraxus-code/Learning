@@ -2,6 +2,26 @@ body {
     font-family: sans-serif;
 }
 
-.input {
-    margin: 3px;
+.login-form {
+    display: flex;
+    gap: 3px;
+    align-items: stretch;
+}
+
+.input_column {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 200px;
+}
+
+.signin_button {
+    background-color: #007bff;
+    border-radius: 3px;
+    border-width: 0px;
+    color: white;
+    transition: 0.25s;
+}
+.signin_button:hover {
+    background-color: #025ab9;
 }

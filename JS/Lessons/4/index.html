@@ -8,9 +8,12 @@
     <script type="module" src="main.js"></script>
 </head>
 <body>
-    <input id="email_input" type="email" class="input">
-    <label for="email_input">Email</label> <br>
-    <input id="password_input" type="password" class="input">
-    <label for="password_input">Password</label> <br>
+    <form class="login-form">
+        <div class="input_column">
+            <input id="email_input" type="email" placeholder="email">
+            <input id="password_input" type="password" placeholder="password">
+        </div>
+        <button id="signin_button" class="signin_button" type="submit">sign in</button>
+    </form>
 </body>
 </html>
